@@ -1,0 +1,26 @@
+@import url(variables.less);
+
+@font-face {
+	font-family: LeagueGothic;
+	src: url(../font/LeagueGothic-Regular.otf);
+}
+
+
+
+
+.container () {
+	width: 320px;
+	margin: 0 auto;
+
+	@media @mobile-width {
+		width: 480px;
+	}
+	
+	@media @tablet-width {
+		width: 768px;
+	}
+
+	@media @desctop-width {
+		width: 960px;
+	}
+}

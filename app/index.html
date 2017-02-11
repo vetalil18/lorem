@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header-page">
+		<div class="header-page__wrapper">
+			<div class="header-page__logo">
+				<object type="image/svg+xml" data="img/logo.svg" class="logo"></object>
+			</div>
+			<nav class="header-page__nav">
+				<ul class="header-page__nav-items">
+					<li class="header-page__nav-item">
+						<a class=" header-page__nav-item-visible">Home</a>
+					</li>
+					<li class="header-page__nav-item">
+						<a href="#" class="header-page__nav-item--hidden">About</a>
+					</li>
+					<li class="header-page__nav-item">
+						<a href="#" class="header-page__nav-item--hidden">Blog</a>
+					</li>
+					<li class="header-page__nav-item">
+						<a href="#" class="header-page__nav-item--hidden">Products</a>
+					</li>
+					<li class="header-page__nav-item">
+						<a href="#" class="header-page__nav-item--hidden">Lorem ppsum</a>
+					</li>
+					<li class="header-page__nav-item">
+						<a href="#" class="header-page__nav-item--hidden">Dolor sit amet</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<div class="header-page__slider">
+			<div class="headerPageSliderItems">
+				<div class="header-page__slider-item">
+					<h2 class="header-page__slider-item-title">Lorem Ipsum Dolor-1</h2>
+					<p class="header-page__slider-item-title-desc">It will make all of your dreams come true</p>
+					<p class="header-page__slider-item-text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id</p>
+				</div>
+				<div class="header-page__slider-item">
+					<h2 class="header-page__slider-item-title">Lorem Ipsum Dolor-2</h2>
+					<p class="header-page__slider-item-title-desc">It will make all of your dreams come true</p>
+					<p class="header-page__slider-item-text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id</p>
+				</div>
+				<div class="header-page__slider-item">
+					<h2 class="header-page__slider-item-title">Lorem Ipsum Dolor-3</h2>
+					<p class="header-page__slider-item-title-desc">It will make all of your dreams come true</p>
+					<p class="header-page__slider-item-text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+  $('.headerPageSliderItems').slick({
+  		 dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+  		});
+  });
+
+</script>
+</body>
+</html>
